@@ -2,7 +2,7 @@ Open source Computer Using Agent marketplace - MuleRun alternative
 
 ---
 
-openmule can either relay traffic between CUA servers and clients, pay bills to servers, or host its own servers by putting all config files to openmule server.
+openmule can either relay traffic between CUA servers (ai controller) and clients (command receivers, executors), pay bills to servers, or host its own servers by putting all config files to openmule server.
 
 ---
 
