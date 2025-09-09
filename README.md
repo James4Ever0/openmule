@@ -1,5 +1,11 @@
 Open source Computer Using Agent marketplace - MuleRun alternative
 
+---
+
+openmule can either relay traffic between CUA servers and clients, pay bills to servers, or host its own servers by putting all config files to openmule server.
+
+---
+
 Agent framework: [trycua/cua](https://github.com/trycua/cua)
 
 Accounting framework: [cybergod-gym](https://github.com/James4Ever0/agi_computer_control/tree/master/gym-primitives%2Fcybergod)
