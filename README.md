@@ -13,3 +13,8 @@ Backend: fastapi, websocket
 ---
 
 use YAML for storing agent prompt, Dockerfile, billing info, input and output file, remote machine vnc credential info etc
+
+
+---
+
+can control user defined remote machine, cloud machine, openmule hosted machine or remote openmule client
