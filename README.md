@@ -52,3 +52,7 @@ the user shall have a webui interface to virtualized machine which is being cont
 ---
 
 openmule can support Xbox, PS5 or PC running fps games with hardware.
+
+---
+
+free services first, then paid, then customize
