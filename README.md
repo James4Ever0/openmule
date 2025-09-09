@@ -6,6 +6,10 @@ crypto first, other flat currencies comes later. we can build a distributed rela
 
 ---
 
+the client (end user account) can comment on each service provider, rate its performance.
+
+---
+
 openmule can either relay traffic between CUA servers (ai controller) and clients (command receivers, executors), pay bills to servers, or host its own servers by putting all config files to openmule server.
 
 ---
