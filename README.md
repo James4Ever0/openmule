@@ -56,3 +56,7 @@ openmule can support Xbox, PS5 or PC running fps games with hardware.
 ---
 
 free services first, then paid, then customize
+
+---
+
+openmule shall not be limited to cua agents. it shall be a marketplace for all sorts of ai agents, as long as it takes money to execute.
