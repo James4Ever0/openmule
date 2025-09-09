@@ -63,4 +63,4 @@ openmule shall not be limited to cua agents. it shall be a marketplace for all s
 
 ---
 
-we can make human in the loop, record human operation during the process of using openmule action sender api. human can earn money too with openmule. the end user can interfere with the machine being controlled, provide feedback or emergency stop.
+we can make human in the loop, record human operation during the process of using openmule action sender api. human can earn money too with openmule. the end user can interfere with the machine being controlled, provide feedback, machine state snapshots or emergency stop.
