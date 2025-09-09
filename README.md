@@ -9,3 +9,7 @@ AI billing: litellm
 Frontend: vue3
 
 Backend: fastapi, websocket
+
+---
+
+use YAML for storing agent prompt, Dockerfile, billing info etc
