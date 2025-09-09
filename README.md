@@ -12,4 +12,4 @@ Backend: fastapi, websocket
 
 ---
 
-use YAML for storing agent prompt, Dockerfile, billing info, input and output file info etc
+use YAML for storing agent prompt, Dockerfile, billing info, input and output file, remote machine vnc credential info etc
