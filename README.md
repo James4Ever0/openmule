@@ -6,6 +6,10 @@ openmule can either relay traffic between CUA servers (ai controller) and client
 
 ---
 
+openmule can probe connection health to clients and servers
+
+---
+
 Agent framework: [trycua/cua](https://github.com/trycua/cua)
 
 Accounting framework: [cybergod-gym](https://github.com/James4Ever0/agi_computer_control/tree/master/gym-primitives%2Fcybergod)
