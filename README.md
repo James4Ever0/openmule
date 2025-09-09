@@ -60,3 +60,7 @@ free services first, then paid, then customize
 ---
 
 openmule shall not be limited to cua agents. it shall be a marketplace for all sorts of ai agents, as long as it takes money to execute. it can even be physical agents.
+
+---
+
+we can make human in the loop, record human operation during the process of using openmule action sender api. human can earn money too with openmule.
