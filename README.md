@@ -43,4 +43,8 @@ users are recommended to use a virtualized machine to be controlled by openmule,
 
 ---
 
+openmule shall provide top security to end users, by eliminating intranet network address access.
+
+---
+
 the user shall have a webui interface to virtualized machine which is being controlled, with a password, to configure cua connection details and view logs, and a dialogue to confirm if this machine is bare metal without virtualization, if so then any keyboard or mouse movement will trigger emergency stop, or some other action like moving mouse to a specific corner
