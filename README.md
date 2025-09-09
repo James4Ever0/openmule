@@ -18,3 +18,7 @@ use YAML for storing agent prompt, Dockerfile, billing info, input and output fi
 ---
 
 can control user defined remote machine, cloud machine, openmule hosted machine or remote openmule client
+
+---
+
+the user shall have a webui interface to virtualized machine, and a dialogue to confirm if this machine is bare metal without virtualization, if so then any keyboard or mouse movement will trigger emergency stop, or some other action like moving mouse to a specific corner
