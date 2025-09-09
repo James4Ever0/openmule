@@ -2,6 +2,10 @@ Open source Computer Using Agent marketplace - MuleRun alternative
 
 ---
 
+crypto first, other flat currencies comes later. we can build a distributed relay framework later upon Blockchain.
+
+---
+
 openmule can either relay traffic between CUA servers (ai controller) and clients (command receivers, executors), pay bills to servers, or host its own servers by putting all config files to openmule server.
 
 ---
