@@ -67,4 +67,4 @@ we can make human in the loop, record human operation during the process of usin
 
 ---
 
-negotiable task and price for flexible, versatile agents, refund policy by third party escrow 
+negotiable task and price for flexible, versatile agents, refund policy by third party escrow and validator 
