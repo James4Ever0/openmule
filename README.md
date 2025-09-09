@@ -48,3 +48,7 @@ openmule shall provide top security to end users, by eliminating intranet networ
 ---
 
 the user shall have a webui interface to virtualized machine which is being controlled, with a password, to configure cua connection details and view logs, and a dialogue to confirm if this machine is bare metal without virtualization, if so then any keyboard or mouse movement will trigger emergency stop, or some other action like moving mouse to a specific corner
+
+---
+
+openmule can support Xbox, PS5 or PC running fps games with hardware.
