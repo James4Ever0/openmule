@@ -21,4 +21,4 @@ can control user defined remote machine, cloud machine, openmule hosted machine 
 
 ---
 
-the user shall have a webui interface to virtualized machine, and a dialogue to confirm if this machine is bare metal without virtualization, if so then any keyboard or mouse movement will trigger emergency stop, or some other action like moving mouse to a specific corner
+the user shall have a webui interface to virtualized machine which is being controlled, with a password, and a dialogue to confirm if this machine is bare metal without virtualization, if so then any keyboard or mouse movement will trigger emergency stop, or some other action like moving mouse to a specific corner
