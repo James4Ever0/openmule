@@ -85,3 +85,7 @@ duplicate some or all features like freelancer.com, but for ai
 ---
 
 provide a offline training environment, for easy development
+
+---
+
+pay for minimum wage per minute in process of work, place payment milestones between work stages, to ensure satisfaction
