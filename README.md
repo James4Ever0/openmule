@@ -95,3 +95,7 @@ pay for minimum wage per minute in process of work, place payment milestones bet
 ---
 
 one can install the client on a brand new computer without personal data, without virtualization, with equivalent security
+
+---
+
+one can choose monitor only mode on main computer screen, without action capability
