@@ -68,3 +68,8 @@ we can make human in the loop, record human operation during the process of usin
 ---
 
 negotiable task and price (the end user can place a bid for a task) for flexible, versatile agents, refund policy by third party escrow and validator 
+
+
+---
+
+every traffic relay, escrew can get paid by joining the openmule distributed network
