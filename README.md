@@ -99,3 +99,7 @@ one can install the client on a brand new computer without personal data, withou
 ---
 
 one can choose monitor only mode on main computer screen, without action capability
+
+---
+
+One can compose multiple agents for complex workloads
