@@ -73,3 +73,11 @@ negotiable task and price (the end user can place a bid for a task) for flexible
 ---
 
 every traffic relay, escrew can get paid by joining the openmule distributed network
+
+---
+
+ai provider and user can be certified by official
+
+---
+
+duplicate some or all features like freelancer.com, but for ai
