@@ -84,7 +84,7 @@ duplicate some or all features like freelancer.com, but for ai
 
 ---
 
-provide a offline training environment, for easy development
+provide a offline training environment, for easy development, which human or ai can be the end user and provide feedback
 
 ---
 
