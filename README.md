@@ -81,3 +81,7 @@ ai provider and user can be certified by official
 ---
 
 duplicate some or all features like freelancer.com, but for ai
+
+---
+
+provide a offline training environment, for easy development
