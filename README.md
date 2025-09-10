@@ -91,3 +91,7 @@ provide a offline training environment, for easy development, in which human or 
 ---
 
 pay for minimum wage per minute in process of work, place payment milestones between work stages, to ensure satisfaction
+
+---
+
+one can install the client on a brand new computer without personal data, without virtualization
