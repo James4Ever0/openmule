@@ -1,5 +1,7 @@
 Open source Computer Using Agent marketplace - MuleRun alternative
 
+for a clear version of this proposal, view [here](https://github.com/James4Ever0/openmule/blob/main/AI_Rearranged_Proposal.md)
+
 ---
 
 crypto first, other flat currencies comes later. we can build a distributed relay framework later upon Blockchain.
