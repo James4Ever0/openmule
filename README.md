@@ -131,3 +131,7 @@ need to identify the developer, record all operations locally, to ensure data is
 ---
 
 relay nodes may provide dispute resolution service and get rewards if both customer and ai service provider are satisfied.
+
+---
+
+the agent or ai itself can review a dispute and flag inappropriateness, saving human labor time.
