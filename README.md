@@ -134,4 +134,4 @@ relay nodes may provide dispute resolution service and get rewards if both custo
 
 ---
 
-the agent or ai itself can review a dispute and flag inappropriateness, saving human labor time.
+the agent or ai service privider itself can review a dispute and flag inappropriateness, saving human labor time.
