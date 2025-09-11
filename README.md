@@ -127,3 +127,7 @@ need some p2p or relay tech in xunlei, tailscale, geth or else
 ---
 
 need to identify the developer, record all operations locally, to ensure data is not leaked. evidence could be remotely stored (compressed vnc traffic) and prevent/trace data leakage.
+
+---
+
+relay nodes may provide dispute resolution service and get rewards if both customer and ai service provider are satisfied.
