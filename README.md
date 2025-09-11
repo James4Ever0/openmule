@@ -115,3 +115,7 @@ The good part of self hosting computer command executor or environment is that e
 ---
 
 we might want to make the entire openmule agent side api into mcp protocol to ensure real time response
+
+---
+
+need some p2p or relay tech
