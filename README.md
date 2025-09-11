@@ -1,4 +1,4 @@
-<!-- TODO: create a discord chat channel or chatting place -->
+<!-- TODO: create a discord chat channel or chatting place, or just direct them to cybergod -->
 
 Open source Computer Using Agent marketplace - MuleRun alternative
 
