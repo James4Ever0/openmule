@@ -1,3 +1,5 @@
+<!-- TODO: create a discord chat channel or chatting place -->
+
 Open source Computer Using Agent marketplace - MuleRun alternative
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/James4Ever0/openmule)
