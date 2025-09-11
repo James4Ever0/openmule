@@ -119,3 +119,7 @@ we might want to make the entire openmule agent side api into mcp protocol to en
 ---
 
 need some p2p or relay tech in xunlei, tailscale, geth or else
+
+---
+
+need to identify the developer, record all operations locally, to ensure data is not leaked. evidence could be remotely stored (compressed vnc traffic) and prevent/trace data leakage.
