@@ -118,4 +118,4 @@ we might want to make the entire openmule agent side api into mcp protocol to en
 
 ---
 
-need some p2p or relay tech
+need some p2p or relay tech in xunlei, tailscale, geth or else
