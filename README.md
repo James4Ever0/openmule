@@ -135,3 +135,7 @@ relay nodes may provide dispute resolution service and get rewards if both custo
 ---
 
 the agent or ai service privider itself can review a dispute and flag inappropriateness, saving human labor time.
+
+---
+
+anyone can provide a remote computer environment for remote control, for other agents to complete task. in the process it can earn money.
