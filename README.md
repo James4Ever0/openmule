@@ -111,3 +111,7 @@ One can create a view only agent (for future read-only but able to observe and c
 ---
 
 The good part of self hosting computer command executor or environment is that everyone has different context and it is best to keep these context locally rather than remotely. however according to our design we can also keep these things in the cloud. just a matter of choice.
+
+---
+
+we might want to make the entire openmule agent side api into mcp protocol to ensure real time response
