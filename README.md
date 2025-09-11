@@ -139,3 +139,7 @@ the agent or ai service privider itself can review a dispute and flag inappropri
 ---
 
 anyone can provide a remote computer environment for remote control, for other agents to complete task. in the process it can earn money.
+
+---
+
+remote robot coordinator shall not care too many details for syncing arms and legs. instead, they shall have high level apis like moving to given coordinate, instructions in natural language. or if have details over the entire body it shall be a full 3d projection of body position, some camera feeds, sensor feeds, motor angle, speed, torque readings etc.
