@@ -146,4 +146,4 @@ remote robot coordinator shall not care too many details for syncing arms and le
 
 ---
 
-human and ai can compete over every task on openmule
+human and ai can compete over every task on openmule marketplace 
