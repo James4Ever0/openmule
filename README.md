@@ -147,3 +147,7 @@ remote robot coordinator shall not care too many details for syncing arms and le
 ---
 
 human and ai can compete over every task on openmule marketplace 
+
+---
+
+the relay makes sure the ai service provider can perform online learning and improve performance over time.
