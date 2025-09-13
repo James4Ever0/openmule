@@ -151,3 +151,7 @@ human and ai can compete over every task on openmule marketplace
 ---
 
 the relay makes sure the ai service provider can perform online learning and improve performance over time.
+
+---
+
+we may start with traditional labor task and artifact, money escrew platform.
