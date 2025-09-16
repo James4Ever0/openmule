@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-16T14:40:20+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">OpenMule - MuleRun FOSS Alternative</title><subtitle>OpenMule is a free and open-source software to MuleRun.
+Distributed, trustless, and user-friendly.</subtitle><entry><title type="html">OpenMule: An Open Source MuleRun Alternative</title><link href="http://localhost:4000/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative.html" rel="alternate" type="text/html" title="OpenMule: An Open Source MuleRun Alternative" /><published>2025-09-15T16:46:00+08:00</published><updated>2025-09-15T16:46:00+08:00</updated><id>http://localhost:4000/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative</id><content type="html" xml:base="http://localhost:4000/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative.html"><![CDATA[[Mulerun](https://mulerun.com) is a great marketplace platform hosting online CUA agents as well as traditional workflow AI applications. However, it is not open source, which means that we cannot contribute to it directly. Therefore, we propose to create an open source alternative to Mulerun, which we call OpenMule.
+
+OpenMule is an open source marketplace platform that allows users to create and deploy CUA agents and traditional workflow AI applications without the need for a third-party marketplace. It is designed to be easy to use and and easy to develop on.
+
+It differs from Mulerun in the following ways:
+
+1. Open Source: OpenMule is open source, which means that it is free to use and modify. This allows users to contribute to the project and improve it over time.
+2. Relay as a Service: OpenMule acts as an relay between service providers and end users, which means that users can deploy their CUA agents and traditional workflow AI applications on their own servers, rather than relying on a third-party marketplace. Users can enjoy services on their own computers and control the data they use.
+3. Escrow as a Service: OpenMule handles every transaction, including the payment of fees, the release of escrow, and the release of escrow. This allows users to focus on their business and not worry about the technical details of the transaction, and a better user experience.
+4. Distributed Computing: OpenMule uses distributed computing, which means that it can be used to create a decentralized marketplace. This allows users to create their own marketplace.
+5. Extensible: OpenMule is designed to be easily extended, which means that users can add new features and functionality to the platform as needed, such as physical robots, or physical KVM controllers.
+6. Crypto friendly: OpenMule is designed to be compatible with various cryptocurrencies, including Bitcoin, Ethereum, and others. This allows users to use the platform with their preferred cryptocurrency.
+7. Human in the Loop: OpenMule integrates human in the process, which means that users can interact with the platform and make decisions based on their own needs and preferences, and human workers can compete with AI agents to win the task.
+
+Currently, OpenMule is an open proposal, and we are actively seeking developers to join the project and help us build a better marketplace for users. If you are interested in contributing to OpenMule, please visit our GitLab page and join our community.
+
+Developers we are looking for:
+
+- Distributed computing developers
+- Network relay developers
+- CUA agent engineers (AI)
+- Physical KVM developers
+- Blockchain developers
+- Frontend developers
+- Backend developers
+- Marketing experts
+- Robot engineers
+- UI/UX designers
+
+Meanwhile, if you are an popular Youtuber, we are also looking for you to join us and help us promote OpenMule.
+
+If you are interested in joining the OpenMule team, please contact us at [randomvoidmail@foxmail.com](mailto:randomvoidmail@foxmail.com).
+
+You can learn more about OpenMule at [openmule/openmule](https://gitlab.com/openmule/openmule).]]></content><author><name>James Brown</name></author><category term="mulerun" /><category term="openmule" /><category term="proposal" /><category term="opensource" /><summary type="html"><![CDATA[Mulerun is a great marketplace platform hosting online CUA agents as well as traditional workflow AI applications. However, it is not open source, which means that we cannot contribute to it directly. Therefore, we propose to create an open source alternative to Mulerun, which we call OpenMule.]]></summary></entry></feed>

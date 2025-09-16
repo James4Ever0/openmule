@@ -2,7 +2,7 @@
 
 Open source Computer Using Agent marketplace - MuleRun alternative
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/James4Ever0/openmule)   <a href="https://discord.gg/eM5vezJvEQ"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"/></a>
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/James4Ever0/openmule)   <a href="https://discord.gg/eM5vezJvEQ"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"/></a> [![Netlify Status](https://api.netlify.com/api/v1/badges/b1276d9a-05a7-4e00-9086-23e31a7afe5a/deploy-status)](https://openmule.netlify.app)
 
 for a clear version of this proposal, view [here](https://github.com/James4Ever0/openmule/blob/main/AI_Rearranged_Proposal.md)
 
