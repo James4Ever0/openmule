@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://openmule.netlify.app/zh/feed.xml" rel="self" type="application/atom+xml" /><link href="https://openmule.netlify.app/zh/" rel="alternate" type="text/html" /><updated>2025-09-22T09:07:49+08:00</updated><id>https://openmule.netlify.app/feed.xml</id><title type="html">OpenMule - MuleRun FOSS Alternative</title><subtitle>OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly.</subtitle><entry xml:lang="zh"><title type="html">OpenMule：一个开源的 MuleRun 替代方案</title><link href="https://openmule.netlify.app/zh/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative" rel="alternate" type="text/html" title="OpenMule：一个开源的 MuleRun 替代方案" /><published>2025-09-15T16:46:00+08:00</published><updated>2025-09-15T16:46:00+08:00</updated><id>https://openmule.netlify.app/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative-zh</id><content type="html" xml:base="https://openmule.netlify.app/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative"><![CDATA[<p><a href="https://mulerun.com">Mulerun</a> 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。</p>
+
+<p>OpenMule 是一个开源市场平台，允许用户创建和部署 CUA 智能体及传统工作流式 AI 应用，而无需依赖第三方市场。它的设计宗旨是易于使用和便于开发。</p>
+
+<p>它与 Mulerun 的区别主要体现在以下几个方面：</p>
+
+<ol>
+  <li>开源: OpenMule 是开源的，这意味着它可以免费使用和修改。用户可以为项目贡献代码，并持续帮助改进它。</li>
+  <li>中继即服务: OpenMule 充当服务提供商和最终用户之间的中继。这意味着用户可以将自己的 CUA 智能体和传统 AI 应用部署在自己的服务器上，无需依赖第三方市场。用户可以在自己的计算机上享受服务并完全控制所使用的数据。</li>
+  <li>托管即服务: OpenMule 处理每一笔交易，包括支付费用、托管资金的释放等。这让用户可以专注于业务本身，而无需担心交易的技术细节，从而获得更佳的用户体验。</li>
+  <li>分布式计算: OpenMule 采用分布式计算，这意味着它可以用来创建去中心化的市场。用户甚至可以创建属于自己的市场。</li>
+  <li>可扩展性: OpenMule 的设计易于扩展，用户可以根据需要为平台添加新的特性和功能，例如支持物理机器人或物理 KVM 控制器。</li>
+  <li>加密友好: OpenMule 设计兼容多种加密货币，包括比特币、以太坊等。用户可以使用他们偏好的加密货币在平台进行交易。</li>
+  <li>以人为本: OpenMule 将“人”整合到流程中。用户可以根据自身需求和偏好与平台交互并做出决策，人类工作者也可以与 AI 智能体竞争来赢得任务。</li>
+</ol>
+
+<p>目前，OpenMule 是一项开放的倡议，我们正在积极寻找开发者加入项目，共同为用户构建一个更优秀的市场平台。如果您有兴趣为 OpenMule 贡献力量，请访问我们的 GitLab 页面并加入我们的社区。</p>
+
+<p>我们正在寻找以下开发者：</p>
+
+<ul>
+  <li>分布式计算开发工程师</li>
+  <li>网络中继开发工程师</li>
+  <li>CUA 智能体工程师（AI）</li>
+  <li>KVM 开发工程师 (硬件)</li>
+  <li>区块链开发工程师</li>
+  <li>前端开发工程师</li>
+  <li>后端开发工程师</li>
+  <li>市场营销专家</li>
+  <li>机器人工程师</li>
+  <li>UI/UX 设计师</li>
+</ul>
+
+<p>同时，如果您是知名的自媒体视频创作者（抖音，B站，知乎等），我们也非常欢迎您加入我们，帮助推广 OpenMule。</p>
+
+<p>如果您有兴趣加入 OpenMule 团队，请通过 <a href="mailto:randomvoidmail@foxmail.com">randomvoidmail@foxmail.com</a> 联系我们。</p>
+
+<p>您可以在 <a href="https://gitlab.com/openmule/openmule">openmule/openmule</a> 了解更多关于 OpenMule 的信息。</p>]]></content><author><name>James Brown</name></author><category term="mulerun" /><category term="openmule" /><category term="proposal" /><category term="opensource" /><summary type="html"><![CDATA[Mulerun 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。]]></summary></entry></feed>

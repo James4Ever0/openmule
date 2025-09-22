@@ -6,21 +6,119 @@
 <title>OpenMule - MuleRun FOSS Alternative | OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly.</title>
 <meta name="generator" content="Jekyll v4.4.1" />
 <meta property="og:title" content="OpenMule - MuleRun FOSS Alternative" />
-<meta property="og:locale" content="en_US" />
+<meta property="og:locale" content="en" />
 <meta name="description" content="OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly." />
 <meta property="og:description" content="OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly." />
-<link rel="canonical" href="https://openmule.netlify.com/404.html" />
-<meta property="og:url" content="https://openmule.netlify.com/404.html" />
+<link rel="canonical" href="https://openmule.netlify.app/404.html" />
+<meta property="og:url" content="https://openmule.netlify.app/404.html" />
 <meta property="og:site_name" content="OpenMule - MuleRun FOSS Alternative" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="OpenMule - MuleRun FOSS Alternative" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly.","headline":"OpenMule - MuleRun FOSS Alternative","url":"https://openmule.netlify.com/404.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly.","headline":"OpenMule - MuleRun FOSS Alternative","url":"https://openmule.netlify.app/404.html"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://openmule.netlify.com/feed.xml" title="OpenMule - MuleRun FOSS Alternative" /></head>
-<body><header class="site-header" role="banner">
+<link rel="stylesheet" href="/assets/main.css">
+  <style type="text/css">
+    #languageSelect {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      padding: 5px 12px;
+      font-size: 14px;
+      color: #333;
+      margin-left: 5px;
+      cursor: pointer;
+      height: 36px; /* 与其他导航链接高度匹配 */
+    }
 
+    /* 为语言选择器添加鼠标悬停效果 */
+    #languageSelect:hover,
+    .language-switcher:hover {
+      border-color: #c8c8c8;
+      background-color: #f9f9f9;
+    }
+
+    /* 响应式设计：在小屏幕上调整语言选择器 */
+    @media screen and (max-width: 600px) {
+      #languageSelect,
+      .language-switcher {
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+  </style><link type="application/atom+xml" rel="alternate" href="https://openmule.netlify.app/feed.xml" title="OpenMule - MuleRun FOSS Alternative" /></head>
+<script>
+  // Get language from cookie
+  function getLanguageFromCookie() {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; userLanguage=`);
+
+    if (parts.length === 2) {
+      return parts.pop().split(';').shift();
+    }
+
+    return null;
+  }
+
+  // Set language cookie
+  function setLanguageCookie(lang) {
+    const date = new Date();
+    date.setFullYear(date.getFullYear() + 1);
+    document.cookie = `userLanguage=${lang}; expires=${date.toUTCString()}; path=/`;
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const cookieLang = getLanguageFromCookie();
+    console.log("cookieLang:", cookieLang);
+    const browserLang = (navigator.language || navigator.userLanguage).split('-')[0]; // Get browser language
+    console.log("browserLang:", browserLang);
+    const preferredLang = cookieLang || browserLang;
+    console.log("preferredLang:", preferredLang);
+    const supportedLangs = ['en', 'zh']; // Add supported languages here
+    const defaultLang = 'en'; // Default language
+    const currentLang = supportedLangs.includes(preferredLang) ? preferredLang : (supportedLangs.includes(browserLang) ? browserLang : defaultLang);
+    console.log("currentLang:", currentLang);
+    const htmlLang = document.documentElement.lang;
+    const currentPath = window.location.pathname;
+    console.log("currentPath:", currentPath);
+    const newPath = (currentLang === defaultLang ? '' : "/" + currentLang ) + currentPath.replace(/^\/(en|zh)(\/|$)/, '/');
+    console.log("newPath:", newPath);
+    let redirect = true;
+    if (htmlLang == currentLang) {
+      redirect = false;
+      console.log("HTML lang matches currentLang, no redirect needed.");
+    }
+    if (redirect){
+      if (currentPath !== newPath) {
+        window.location.replace(newPath);
+      } else {
+        redirect = false;
+        console.log("Current path matches new path, no redirect needed.");
+      }
+    }
+    if (!redirect) {
+      document.getElementById('languageSelect').value = currentLang;
+      console.log('Registering language selector event listener.');
+      document.getElementById('languageSelect').addEventListener('change', function () {
+        // 获取选中的值
+        var selectedLanguage = this.value;
+        console.log('Selected language:', selectedLanguage);
+        if (selectedLanguage !== currentLang) {
+          setLanguageCookie(selectedLanguage);
+          let selectedPath = (selectedLanguage === defaultLang ? '' : "/" + selectedLanguage)+ currentPath.replace(/^\/(en|zh)(\/|$)/, '/');
+          console.log("selectedPath:", selectedPath);
+          window.location.replace(selectedPath);
+        }
+      });
+    }
+
+  });
+</script>
+
+<body><header class="site-header" role="banner">
   <div class="wrapper"><a class="site-title" rel="author" href="/">OpenMule - MuleRun FOSS Alternative</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -31,12 +129,16 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
+        <div class="trigger"><a class="page-link" href="/about/">About</a><!-- 添加语言选择器到导航菜单 -->
+          <select id="languageSelect" class="page-link">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
       </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
+</header><main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post">
 
   <header class="post-header">
     <h1 class="post-title"></h1>
@@ -68,8 +170,8 @@
 
 </article>
 
-      </div>
-    </main><footer class="site-footer h-card">
+    </div>
+  </main><footer class="site-footer h-card">
   <data class="u-url" href="/"></data>
 
   <div class="wrapper">
@@ -86,8 +188,7 @@
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>OpenMule is a free and open-source software to MuleRun.
-Distributed, trustless, and user-friendly.</p>
+        <p>OpenMule is a free and open-source software to MuleRun. Distributed, trustless, and user-friendly.</p>
       </div>
     </div>
 

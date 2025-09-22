@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>OpenMule：一个开源的 MuleRun 替代方案 | OpenMule - MuleRun FOSS Alternative</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="OpenMule：一个开源的 MuleRun 替代方案" />
+<meta name="author" content="James Brown" />
+<meta property="og:locale" content="zh" />
+<meta name="description" content="Mulerun 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。" />
+<meta property="og:description" content="Mulerun 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。" />
+<link rel="canonical" href="https://openmule.netlify.app/zh/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative" />
+<meta property="og:url" content="https://openmule.netlify.app/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative" />
+<meta property="og:site_name" content="OpenMule - MuleRun FOSS Alternative" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-09-15T16:46:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="OpenMule：一个开源的 MuleRun 替代方案" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"James Brown"},"dateModified":"2025-09-15T16:46:00+08:00","datePublished":"2025-09-15T16:46:00+08:00","description":"Mulerun 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。","headline":"OpenMule：一个开源的 MuleRun 替代方案","mainEntityOfPage":{"@type":"WebPage","@id":"https://openmule.netlify.app/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative"},"url":"https://openmule.netlify.app/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/zh/assets/main.css">
+  <style type="text/css">
+    #languageSelect {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: transparent;
+      border: 1px solid #e8e8e8;
+      border-radius: 4px;
+      padding: 5px 12px;
+      font-size: 14px;
+      color: #333;
+      margin-left: 5px;
+      cursor: pointer;
+      height: 36px; /* 与其他导航链接高度匹配 */
+    }
+
+    /* 为语言选择器添加鼠标悬停效果 */
+    #languageSelect:hover,
+    .language-switcher:hover {
+      border-color: #c8c8c8;
+      background-color: #f9f9f9;
+    }
+
+    /* 响应式设计：在小屏幕上调整语言选择器 */
+    @media screen and (max-width: 600px) {
+      #languageSelect,
+      .language-switcher {
+        margin: 10px 0;
+        width: 100%;
+      }
+    }
+  </style><link type="application/atom+xml" rel="alternate" href="https://openmule.netlify.app/zh/feed.xml" title="OpenMule - MuleRun FOSS Alternative" /></head>
+<script>
+  // Get language from cookie
+  function getLanguageFromCookie() {
+    const value = `; ${document.cookie}`;
+    const parts = value.split(`; userLanguage=`);
+
+    if (parts.length === 2) {
+      return parts.pop().split(';').shift();
+    }
+
+    return null;
+  }
+
+  // Set language cookie
+  function setLanguageCookie(lang) {
+    const date = new Date();
+    date.setFullYear(date.getFullYear() + 1);
+    document.cookie = `userLanguage=${lang}; expires=${date.toUTCString()}; path=/`;
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    const cookieLang = getLanguageFromCookie();
+    console.log("cookieLang:", cookieLang);
+    const browserLang = (navigator.language || navigator.userLanguage).split('-')[0]; // Get browser language
+    console.log("browserLang:", browserLang);
+    const preferredLang = cookieLang || browserLang;
+    console.log("preferredLang:", preferredLang);
+    const supportedLangs = ['en', 'zh']; // Add supported languages here
+    const defaultLang = 'en'; // Default language
+    const currentLang = supportedLangs.includes(preferredLang) ? preferredLang : (supportedLangs.includes(browserLang) ? browserLang : defaultLang);
+    console.log("currentLang:", currentLang);
+    const htmlLang = document.documentElement.lang;
+    const currentPath = window.location.pathname;
+    console.log("currentPath:", currentPath);
+    const newPath = (currentLang === defaultLang ? '' : "/" + currentLang ) + currentPath.replace(/^\/(en|zh)(\/|$)/, '/');
+    console.log("newPath:", newPath);
+    let redirect = true;
+    if (htmlLang == currentLang) {
+      redirect = false;
+      console.log("HTML lang matches currentLang, no redirect needed.");
+    }
+    if (redirect){
+      if (currentPath !== newPath) {
+        window.location.replace(newPath);
+      } else {
+        redirect = false;
+        console.log("Current path matches new path, no redirect needed.");
+      }
+    }
+    if (!redirect) {
+      document.getElementById('languageSelect').value = currentLang;
+      console.log('Registering language selector event listener.');
+      document.getElementById('languageSelect').addEventListener('change', function () {
+        // 获取选中的值
+        var selectedLanguage = this.value;
+        console.log('Selected language:', selectedLanguage);
+        if (selectedLanguage !== currentLang) {
+          setLanguageCookie(selectedLanguage);
+          let selectedPath = (selectedLanguage === defaultLang ? '' : "/" + selectedLanguage)+ currentPath.replace(/^\/(en|zh)(\/|$)/, '/');
+          console.log("selectedPath:", selectedPath);
+          window.location.replace(selectedPath);
+        }
+      });
+    }
+
+  });
+</script>
+
+<body><header class="site-header" role="banner">
+  <div class="wrapper"><a class="site-title" rel="author" href="/zh/">OpenMule - MuleRun 的自由开源替代方案</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/zh/about/">关于我们</a><!-- 添加语言选择器到导航菜单 -->
+          <select id="languageSelect" class="page-link">
+            <option value="en">English</option>
+            <option value="zh">中文</option>
+          </select>
+        </div>
+      </nav></div>
+</header><main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">OpenMule：一个开源的 MuleRun 替代方案</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2025-09-15T16:46:00+08:00" itemprop="datePublished">2025-09-15
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">James Brown</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><a href="https://mulerun.com">Mulerun</a> 是一个优秀的市场平台，承载着在线 CUA 智能体以及传统工作流式 AI 应用。然而，它并非开源，这意味着我们无法直接为其贡献代码。因此，我们提议创建一个 Mulerun 的开源版本，并将其命名为 OpenMule。</p>
+
+<p>OpenMule 是一个开源市场平台，允许用户创建和部署 CUA 智能体及传统工作流式 AI 应用，而无需依赖第三方市场。它的设计宗旨是易于使用和便于开发。</p>
+
+<p>它与 Mulerun 的区别主要体现在以下几个方面：</p>
+
+<ol>
+  <li>开源: OpenMule 是开源的，这意味着它可以免费使用和修改。用户可以为项目贡献代码，并持续帮助改进它。</li>
+  <li>中继即服务: OpenMule 充当服务提供商和最终用户之间的中继。这意味着用户可以将自己的 CUA 智能体和传统 AI 应用部署在自己的服务器上，无需依赖第三方市场。用户可以在自己的计算机上享受服务并完全控制所使用的数据。</li>
+  <li>托管即服务: OpenMule 处理每一笔交易，包括支付费用、托管资金的释放等。这让用户可以专注于业务本身，而无需担心交易的技术细节，从而获得更佳的用户体验。</li>
+  <li>分布式计算: OpenMule 采用分布式计算，这意味着它可以用来创建去中心化的市场。用户甚至可以创建属于自己的市场。</li>
+  <li>可扩展性: OpenMule 的设计易于扩展，用户可以根据需要为平台添加新的特性和功能，例如支持物理机器人或物理 KVM 控制器。</li>
+  <li>加密友好: OpenMule 设计兼容多种加密货币，包括比特币、以太坊等。用户可以使用他们偏好的加密货币在平台进行交易。</li>
+  <li>以人为本: OpenMule 将“人”整合到流程中。用户可以根据自身需求和偏好与平台交互并做出决策，人类工作者也可以与 AI 智能体竞争来赢得任务。</li>
+</ol>
+
+<p>目前，OpenMule 是一项开放的倡议，我们正在积极寻找开发者加入项目，共同为用户构建一个更优秀的市场平台。如果您有兴趣为 OpenMule 贡献力量，请访问我们的 GitLab 页面并加入我们的社区。</p>
+
+<p>我们正在寻找以下开发者：</p>
+
+<ul>
+  <li>分布式计算开发工程师</li>
+  <li>网络中继开发工程师</li>
+  <li>CUA 智能体工程师（AI）</li>
+  <li>KVM 开发工程师 (硬件)</li>
+  <li>区块链开发工程师</li>
+  <li>前端开发工程师</li>
+  <li>后端开发工程师</li>
+  <li>市场营销专家</li>
+  <li>机器人工程师</li>
+  <li>UI/UX 设计师</li>
+</ul>
+
+<p>同时，如果您是知名的自媒体视频创作者（抖音，B站，知乎等），我们也非常欢迎您加入我们，帮助推广 OpenMule。</p>
+
+<p>如果您有兴趣加入 OpenMule 团队，请通过 <a href="mailto:randomvoidmail@foxmail.com">randomvoidmail@foxmail.com</a> 联系我们。</p>
+
+<p>您可以在 <a href="https://gitlab.com/openmule/openmule">openmule/openmule</a> 了解更多关于 OpenMule 的信息。</p>
+
+  </div><a class="u-url" href="/zh/mulerun/openmule/proposal/opensource/2025/09/15/openmule-an-open-source-mulerun-alternative" hidden></a>
+</article>
+
+    </div>
+  </main><footer class="site-footer h-card">
+  <data class="u-url" href="/zh/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">OpenMule - MuleRun 的自由开源替代方案</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">OpenMule - MuleRun 的自由开源替代方案</li><li><a class="u-email" href="mailto:randomvoidmail@foxmail.com">randomvoidmail@foxmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/james4ever0"><svg class="svg-icon"><use xlink:href="/zh/assets/minima-social-icons.svg#github"></use></svg> <span class="username">james4ever0</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>OpenMule 是 MuleRun 的自由开源软件替代品。 采用分布式、去信任化架构，且用户友好。</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
