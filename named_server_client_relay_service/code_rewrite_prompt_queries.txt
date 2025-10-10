@@ -1,0 +1,4 @@
+rewrite it in go, using channel, mutex, and select
+rewrite it in python, with websockets and asyncio
+rewrite it in go, with websockets
+rewrite it into multi-client code, marked with connection id, supporting multiple clients connected from the relay user to the named service provider, relayed by the named service relay server
