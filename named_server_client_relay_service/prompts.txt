@@ -1,0 +1,7 @@
+i want to create or find a way to relay tcp connection over websocket or something else, through a single tcp shared relay port. the server can establish a temporary connection to relay, sharing service through relay, secured by username and password, and the client can connect to the relay and use the service provided by server. the relay can monitor connections in real time, manage, pause, invalidate connections. is there such library exist? or i have to write my own relay
+
+write me a demo from scratch with python
+
+how to do that in go? will that solve blocking or threading issue?
+
+do it with websocket in go

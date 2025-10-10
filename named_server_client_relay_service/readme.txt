@@ -1,0 +1,1 @@
+remote service relay service, accessible by service name and credentials
