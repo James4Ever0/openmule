@@ -106,7 +106,7 @@ class RelayServer:
         self.unregister_service(service_name, provider_sock)
 
     def create_bidirectional_pipe(self, sock1, sock2):
-        """Create two threads to relay data bidirectionally between two sockets:cite[2]:cite[10]"""
+        """Create two threads to relay data bidirectionally between two sockets"""
 
         # Start threads for both directions
         thread1 = threading.Thread(target=pipe_thread, args=(sock1, sock2, "sock1_sock2"))
