@@ -6,6 +6,7 @@ import (
 	"log"
 	"net"
 	"time"
+	"strings"
 )
 
 type ServiceProvider struct {
@@ -84,7 +85,7 @@ func main() {
 	provider := NewServiceProvider("localhost", 8888)
 	
 	// Register VNC service
-	err := provider.RegisterService("vnc_service_a", 5900)
+	err := provider.RegisterService("vnc_service_a", 5950)
 	if err != nil {
 		log.Fatal(err)
 	}
