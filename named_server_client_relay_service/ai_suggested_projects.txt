@@ -5,3 +5,4 @@ https://www.npmjs.com/package/tcp-over-websockets
 
 https://github.com/namedwebsockets/networkwebsockets
 https://github.com/mediascape/named-websocket-proxy
+https://github.com/Sobolev5/channel-box
