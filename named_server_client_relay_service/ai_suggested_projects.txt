@@ -4,3 +4,4 @@ https://github.com/novnc/websockify
 https://www.npmjs.com/package/tcp-over-websockets
 
 https://github.com/namedwebsockets/networkwebsockets
+https://github.com/mediascape/named-websocket-proxy
