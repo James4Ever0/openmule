@@ -155,3 +155,7 @@ the relay makes sure the ai service provider can perform online learning and imp
 ---
 
 we may start with traditional labor task and artifact, money escrew platform.
+
+---
+
+allow some level of modification of openmule, like fee adjustment, trading logic changes, while maintain its core peer discovery and communication protocol unchanged
